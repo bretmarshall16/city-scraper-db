@@ -1,0 +1,6 @@
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\bin\Debug\city-scraper-db.dacpac
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\bin\Debug\city_scraper_db.dll
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\bin\Debug\city_scraper_db.pdb
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\obj\Debug\city-scraper-db.sqlprojAssemblyReference.cache
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\obj\Debug\city_scraper_db.dll
+C:\personal\CityScraper\city-scraper-db\city-scraper-db\obj\Debug\city_scraper_db.pdb

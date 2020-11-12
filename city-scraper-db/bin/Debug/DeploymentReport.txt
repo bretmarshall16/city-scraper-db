@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Game] (Table)
+       [dbo].[League] (Table)
+       [dbo].[Player] (Table)
+       [dbo].[PlayerGame] (Table)
+       [dbo].[School] (Table)
+       [dbo].[Sport] (Table)
+       [dbo].[Team] (Table)
+       [dbo].[FK_Game_Team_Home] (Foreign Key)
+       [dbo].[FK_Game_Team_Away] (Foreign Key)
+       [dbo].[FK_Player_Team] (Foreign Key)
+       [dbo].[FK_PlayerGame_Player] (Foreign Key)
+       [dbo].[FK_PlayerGame_Game] (Foreign Key)
+       [dbo].[FK_School_League] (Foreign Key)
+       [dbo].[FK_Team_School] (Foreign Key)
+       [dbo].[FK_Team_League] (Foreign Key)
+
+** Supporting actions

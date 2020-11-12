@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Game]
+       [dbo].[MergeSummary]
+       [dbo].[Player]
+       [dbo].[PlayerGame]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Game] (Table)
+       [dbo].[MergeSummary] (Table)
+       [dbo].[Player] (Table)
+       [dbo].[PlayerGame] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Game_Team_Home] (Foreign Key)
+       [dbo].[FK_Game_Team_Away] (Foreign Key)
+       [dbo].[FK_PlayerGame_Game] (Foreign Key)
+       [dbo].[FK_Player_Team] (Foreign Key)
+       [dbo].[FK_PlayerGame_Player] (Foreign Key)
+     Create
+       [dbo].[FK_Game_Team_Home] (Foreign Key)
+       [dbo].[FK_Game_Team_Away] (Foreign Key)
+       [dbo].[FK_PlayerGame_Game] (Foreign Key)
+       [dbo].[FK_Player_Team] (Foreign Key)
+       [dbo].[FK_PlayerGame_Player] (Foreign Key)
+     Refresh
+       [dbo].[Matches] (View)
